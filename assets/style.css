@@ -110,7 +110,7 @@ p{
 .s-m{
     position: absolute;
     top: 20%;
-    left: 15%;
+    left: 14%;
     transform: translate(-50%, -50%);
 }
 .s-m a{
@@ -136,5 +136,98 @@ p{
     transform: scale(1.6) rotate(25deg);
     text-decoration: none;
 } 
+@media screen and (min-width: 401px) and (max-width: 700px){
+    .s-m{
+        position: absolute;
+        top: 20%;
+        left: 22%;
+        transform: translate(-50%, -50%);
+    }
+    .s-m a{
+        display: inline-flex;
+        width: 50px;
+        height: 50px;
+        background: black;
+        color: white;
+        margin: 0 6px;
+        border-radius: 80%;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        font-size: 30px;
+    }
+    .s-m a:hover{
+        background: orangered;
+    }
+    .s-m a{
+        transition: 0.4s all;
+    }
+    .s-m a:hover{
+        transform: scale(1.6) rotate(25deg);
+        text-decoration: none;
+    } 
+}
+@media screen and (min-width: 701px) and (max-width: 1000px){
+    .s-m{
+        position: absolute;
+        top: 20%;
+        left: 18%;
+        transform: translate(-50%, -50%);
+    }
+    .s-m a{
+        display: inline-flex;
+        width: 50px;
+        height: 50px;
+        background: black;
+        color: white;
+        margin: 0 6px;
+        border-radius: 80%;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        font-size: 30px;
+    }
+    .s-m a:hover{
+        background: orangered;
+    }
+    .s-m a{
+        transition: 0.4s all;
+    }
+    .s-m a:hover{
+        transform: scale(1.6) rotate(25deg);
+        text-decoration: none;
+    } 
+}
+@media screen and (min-width: 1001px) and (max-width: 2000px){
+    .s-m{
+        position: absolute;
+        top: 20%;
+        left: 12%;
+        transform: translate(-50%, -50%);
+    }
+    .s-m a{
+        display: inline-flex;
+        width: 50px;
+        height: 50px;
+        background: black;
+        color: white;
+        margin: 0 6px;
+        border-radius: 80%;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        font-size: 30px;
+    }
+    .s-m a:hover{
+        background: orangered;
+    }
+    .s-m a{
+        transition: 0.4s all;
+    }
+    .s-m a:hover{
+        transform: scale(1.6) rotate(25deg);
+        text-decoration: none;
+    } 
+}
 
 
