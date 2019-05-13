@@ -6,11 +6,12 @@
 
 body{ 
     background-image: url('http://denverurbanreview.com/wp-content/uploads/2017/08/IMG_3235-HDR-2.jpg');
-    background-position: top;
-    background-size: 125%;
+    background-position: center;
+    background-size: cover;
     align-content: center;
     padding-top: 75px;
-    height: 100px;
+    height: 100%;
+    background-repeat: no-repeat;
 }
 header{
     width: 100%;
@@ -27,7 +28,17 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
-.aboutMe, .container{
+.aboutMe{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    width: 90%;
+    height: 900px;
+    background: rgba(0, 0, 0, 0.75); 
+}
+.container{
     margin-top: 0%;
     margin-bottom: 0%;
     margin-left: auto;
@@ -45,7 +56,7 @@ nav{
     padding-top: 40px;
     background: rgba(0, 0, 0, 0.75); 
     width: 90%;
-    height: 700px;
+    height: 900px;
     padding-left: 10px;
     padding-right: 10px;
 
@@ -109,8 +120,9 @@ p{
 }
 .s-m{
     position: absolute;
-    top: 20%;
-    left: 14%;
+    display: contents;
+    top: 27%;
+    left: 12%;
     transform: translate(-50%, -50%);
 }
 .s-m a{
@@ -139,7 +151,7 @@ p{
 @media screen and (min-width: 500px) and (max-width: 700px){
     .s-m{
         position: absolute;
-        top: 20%;
+        top: 27%;
         left: 30%;
         transform: translate(-50%, -50%);
     }
@@ -170,7 +182,7 @@ p{
 @media screen and (min-width: 701px) and (max-width: 1000px){
     .s-m{
         position: absolute;
-        top: 20%;
+        top: 27%;
         left: 18%;
         transform: translate(-50%, -50%);
     }
@@ -201,7 +213,7 @@ p{
 @media screen and (min-width: 1001px) and (max-width: 1300px){
     .s-m{
         position: absolute;
-        top: 20%;
+        top: 27%;
         left: 18%;
         transform: translate(-50%, -50%);
     }
