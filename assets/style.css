@@ -107,5 +107,34 @@ p{
     height: 50px;
     float: none;
 }
+.s-m{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+.s-m a{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background: black;
+    color: white;
+    margin: 0 6px;
+    border-radius: 80%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 30px;
+}
+.s-m a:hover{
+    background: orangered;
+}
+.s-m a{
+    transition: 0.4s all;
+}
+.s-m a:hover{
+    transform: scale(1.6) rotate(25deg);
+    text-decoration: none;
+} 
 
 
