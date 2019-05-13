@@ -136,11 +136,11 @@ p{
     transform: scale(1.6) rotate(25deg);
     text-decoration: none;
 } 
-@media screen and (min-width: 401px) and (max-width: 700px){
+@media screen and (min-width: 500px) and (max-width: 700px){
     .s-m{
         position: absolute;
         top: 20%;
-        left: 22%;
+        left: 30%;
         transform: translate(-50%, -50%);
     }
     .s-m a{
@@ -198,11 +198,11 @@ p{
         text-decoration: none;
     } 
 }
-@media screen and (min-width: 1001px) and (max-width: 2000px){
+@media screen and (min-width: 1001px) and (max-width: 1300px){
     .s-m{
         position: absolute;
         top: 20%;
-        left: 12%;
+        left: 18%;
         transform: translate(-50%, -50%);
     }
     .s-m a{
