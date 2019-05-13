@@ -20,7 +20,7 @@ header{
     align-items: center;
     min-height: 8vh;
     background-color: gray;
-    opacity: 1.0;
+
 }
 nav{
     overflow: hidden;
@@ -65,6 +65,11 @@ nav{
     color: rgb(219, 219, 219);
     line-height: 5px;
     background: rgba(0, 0, 0, 0.75); 
+    display: grid;
+}
+.col-sm-3{
+    display: grid;
+    justify-content: center;
 }
 .myPicture{
     float: left;
