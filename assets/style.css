@@ -71,6 +71,7 @@ nav{
     display: grid;
     justify-content: center;
 }
+
 .myPicture{
     float: left;
     width: 30%;
